@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 const config = require('config');
 
+// This middleware we use to authenicate user and get his data
 module.exports = function(req, res, next) {
     // Get token from header
     const token = req.header('x-auth-token');
@@ -12,6 +13,7 @@ module.exports = function(req, res, next) {
 
     // Verify token
     try {
+        // Getting user id from jwt, then edit our request
         const decoded = jwt.verify(token, config.get('jwtSecret'));
         req.user = decoded.user;
         next();

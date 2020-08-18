@@ -25,7 +25,8 @@
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.27",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "uglify-js": "^3.10.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
