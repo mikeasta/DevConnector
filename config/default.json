@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://mikeasta:cvl211912@devconnector-7lksf.mongodb.net/dev-connector-db?retryWrites=true&w=majority",
-    "jwtSecret": "devconnector-secret"
+    "jwtSecret": "devconnector-secret",
+    "githubClientId" : "5763ce126911cbaad824",
+    "githubSecret": "1be43fa957a232ae58300a999d33c1c0c5e3c56f"
 }
