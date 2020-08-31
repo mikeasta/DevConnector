@@ -25,3 +25,8 @@
 .navbar nav .navbar-link:hover {
     text-decoration: underline;
 }
+
+.navbar-h1 {
+    color: #3498db;
+    text-decoration: none;
+}

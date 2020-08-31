@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './landing.css';
 
 const Landing = () => {
@@ -12,8 +13,8 @@ const Landing = () => {
                     Social network for devs
                 </h4>
                 <nav>
-                    <a href='#' className='landing-link'> Sign up </a>
-                    <a href='#' className='landing-link'> Login </a>
+                    <Link to='/register' className='landing-link'> Sign up </Link>
+                    <Link to='/login' className='landing-link'> Login </Link>
                 </nav>
             </div>
         </div>

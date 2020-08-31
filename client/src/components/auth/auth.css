@@ -1,0 +1,74 @@
+.login,
+.register {
+    height: calc(100vh - 50px);
+    background-color: #3498db;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login h1,
+.register h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.login button,
+.register button {
+    background: none;
+    border: none;
+    outline: none;
+
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 15px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+
+    font-size: 20px;
+    color: #3498db;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login p ,
+.register p{
+    font-size: 14px;
+}
+
+.login p a,
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-form,
+.register-form {
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 400px;
+    padding: 0 0 20px 0;
+    margin: 15px 0 0 0 ;
+    border-radius: 2px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+}
+
+.login-form input,
+.register-form input {
+    width: 70%;
+    padding: 3px 5px;
+    border:2px solid #2980b9;
+}
+
+.login-form label,
+.register-form label {
+    margin: 10px 0 5px 0;
+    color: #2980b9;
+    font-weight: 500;
+}
