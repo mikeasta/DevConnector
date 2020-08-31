@@ -1,0 +1,36 @@
+.landing {
+    height: calc(100vh - 50px);
+    background: url('https://miro.medium.com/max/12032/0*DypQzAMdE9cudggX');
+    background-size: 100%;
+    color: #fff;
+}
+
+.landing .wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #30200757;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing .wrapper nav {
+    margin-top: 10px;
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.landing .wrapper nav .landing-link {
+    display: block;
+    height: 27px;
+    width: 75px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}

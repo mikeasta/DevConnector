@@ -1,7 +1,6 @@
 const config = require('config');
 const mongoose = require('mongoose');
 const db = config.get('mongoURI');
-const dbString = require('../beautifulMessages/db');
 
 const connectDB = async () => {
     try {
@@ -10,7 +9,7 @@ const connectDB = async () => {
             useUnifiedTopology: true,
             useCreateIndex: true
         });
-        console.log(dbString());
+        console.log('MongoDB has been connected');
     } catch(error) {
         console.error(error.message);
         process.exit(1);
