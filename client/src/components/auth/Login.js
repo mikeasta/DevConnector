@@ -1,4 +1,6 @@
 import React from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 import './auth.css';
 
 const Login = () => {
@@ -7,7 +9,7 @@ const Login = () => {
             <h1>
                 Login User
             </h1>
-            <form className="login-form" pa>
+            <form className="login-form" >
                 <label for='login-email'>
                     Email
                 </label>
@@ -21,7 +23,7 @@ const Login = () => {
                 Login
             </button>
             <p>
-                Haven't registered yet? <a href="#"> Register</a>
+                Haven't registered yet? <Link to="/register"> Register</Link>
             </p>
         </section>
     )

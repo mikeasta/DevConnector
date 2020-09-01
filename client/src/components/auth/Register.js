@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './auth.css';
 
 const Register = () => {
@@ -25,7 +26,7 @@ const Register = () => {
                 Register
             </button>
             <p>
-                Already registered? <a> Login</a>
+                Already registered? <Link to="/login"> Login</Link>
             </p>
         </section>
     )
